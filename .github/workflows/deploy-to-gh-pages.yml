@@ -34,7 +34,7 @@ jobs:
         run: npm install
       - name: Build with application
         run: |
-          npm run build
+          npm run build -- --base=https://korohandelsgmbh.github.io/take-home-challenge/
           touch dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
