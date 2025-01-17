@@ -40,7 +40,7 @@ const filteredPosts = computed(() => {
     });
 })
 
-const invokeDelete = (id: number) => {
+const invokeDelete = () => {
     showDeleteModal.value = true;
 }
 
