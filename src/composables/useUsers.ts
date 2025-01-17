@@ -11,7 +11,6 @@ export default function useUsers() {
         if (users.value && users.value.length > 0) {
             return;
         }
-
         isLoading.value = true
 
         try {
